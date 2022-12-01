@@ -1,0 +1,113 @@
+/*****************************************************************/
+/* Web del colectivo artistico cutemobb***************************/
+/* Hoja de estilo para index.html*********************************/
+/* Autor Alejandro Barnestein Martos******************************/
+/* Versión 1.0****************************************************/
+/* 25/11/22*******************************************************/
+
+/* ESTILO GENERAL*************************************************/
+
+@font-face {
+    font-family:titulos ;
+    src: url('../fonts/MedusaGothic D.otf');
+}
+
+@font-face {
+    font-family: textos;
+    src: url('../fonts/metropolis.extra-light.otf');
+}
+
+#wrapper {
+    background-color: black;
+    margin:auto;
+
+}
+
+/* HERO SECTION **************************************************/
+
+#hero-section {
+    background-image:url('../imagenes/herosection/cutemobb.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:white;
+    font-family: titulos;
+}
+
+#hero1{
+    font-size: 5rem;
+    text-align:center;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+#hero1-2{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.247) ;
+    color:rgba(255, 255, 255, 0.61);
+}
+
+#hero1-3{
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.432);
+    color:rgba(0, 0, 0, 0.774);
+    margin-top:30%;
+    
+}
+
+.hero1-4{
+    font-family:textos;
+    background-color: rgba(0, 0, 0, 0.432);
+    margin-top:1%;
+    color:rgba(255, 255, 255, 0.74);
+    padding:0 42%;
+    padding-top:3%;
+    padding-bottom: 3%;
+
+   
+   
+    
+}
+
+#wraphero{
+    display: grid;
+    grid-template-columns: 33% 34% 33% ;
+    margin-top:2%;
+}
+
+/************ END HERO*******************/
+
+#separacion{
+    margin-top:5%;
+}
+
+
+/************ INTRODUCCIÓN******************/
+
+#intro{
+    color:white;
+}
+
+.introd1{
+    font-family:textos;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+.introd1 img {
+    width:100%;
+
+}
+
+#wrapintro{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding:0 10%;
+}
+
+.introtext{
+    border: solid 2px white;
+}
