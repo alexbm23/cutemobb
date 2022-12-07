@@ -480,6 +480,8 @@ margin-top: 5%;
     #tarjetawrap{
         grid-template-columns: auto;
     }
-
+    #hero1{
+        font-size: 3rem;
+    }
 
 }
