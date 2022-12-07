@@ -5,16 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/index.css">
-    <link rel="shortcut icon" href="./imagenes/favicon/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./imagenes/favicon/unnamed.jpg" type="image/x-icon">
+    <script src="./JS/funciones.js"></script>
     <title>Cutemobb</title>
 </head>
 <body>
 <!--Aquí empezamos el #wrapper-->
     <div id="wrapper">
-<!--Aquí empieza la barra de navegación-->
         <nav>
-        Aquí va la barra de navegación
-        </nav>
+                <div class="topnav" id="myTopnav">
+                        <a href="#" class="active">Cutemobb</a>
+                        <a href="#intro">Introducción</a>
+                        <a href="#artistas">Artistas</a>
+                        <a href="#galeria">Galería</a>
+                        <a href="#collabs">Contacto</a>
+                        <!-- El último botón es especial, se desactiva su "href" para que no mande a ningún sitio, a cambio es manipulado por un javascript que hace que se oculte cuando nlos demás botones esten a la vista y se muestre cuando los botones se oculten . Aparece solo cuando la pantalla sea estrecha-->
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                      </div>
+                      </nav>
 <!--Aquí va la #hero-section-->
         <section id="hero-section">
         <div id="hero1">
@@ -26,16 +37,7 @@
         <div id="hero1-3">
         Colectivo artistico
         </div>
-        <div id="wraphero">
-        <div class="hero1-4">
-        Musica
-        </div>
-        <div class="hero1-4">
-        Baile
-        </div>
-        <div class="hero1-4">
-        Diseño de moda
-        </div>    
+        <div id="wraphero"> 
         </div>
         </section>
 <!--Esto es una separación entre la hero section y la introducción-->
@@ -44,9 +46,19 @@
 </div>
 <!--Aquí va la introducción-->
         <section id="intro">
+                <div id="titgaleria" class="titartistas">
+                        Introduccion a Cutemobb
+                </div>
+                <!-- Esto es un div de separación-->
+<div id="separacion">
+
+</div>
         <div id="wrapintro">
         <div class="introd1 introtext">
         Innovación en el ámbito musical con su mixtape "Cute Tapes", tocando distintos géneros de música urbana.
+        <div class="card">
+                <p><a href="#" class="boton">Leer más</a></p>
+                </div>
         </div>
         <div class="introd1">
                 <img src="../Cutemobb/imagenes/herosection/lieitisam.jpg">
@@ -55,39 +67,262 @@
                 <img src="../Cutemobb/imagenes/herosection/alu2.jpg">
         </div>
         <div class="introd1 introtext">
-        Con alta pasión por el baile, el cual despertó en algunos integrantes la pasión por la música.   
+        Con alta pasión por el baile, el cual despertó en algunos integrantes la pasión por la música.  
+        <div class="card">
+                <p><a href="#" class="boton">Leer más</a></p>
+                </div> 
         </div>
         <div class="introd1 introtext">
         La moda y el diseño forma parte de Cutemobb y su estética.
+        <div class="card">
+        <p><a href="#" class="boton">Leer más</a></p>
+        </div>
         </div>
         <div class="introd1">
                 <img src="./imagenes/herosection/byleguard.jpg">
         </div>
         </div>
         </section>
+<!-- Esto es un div de separación-->
+<div id="separacion">
 
-
+</div>
 <!--Aquí van los artistas--> <!--Separar por artistas/productores/bailarines/diseñadores-->
         <section id="artistas">
-        Aquí van los artistas
+        <div id="titgaleria" class="titartistas">
+                Artistas de Cutemobb
+        </div>
+<!-- Esto es un div de separación-->
+<div id="separacion">
+
+</div>
+        <div id="tarjetawrap">
+        <div class="tarjeta">
+        <div class="integrantes">
+                <img src="./imagenes/artistas/leiti.jpg" alt="">      
+                 <div>
+                 Leïti Sene
+                </div>
+                <div>
+                <p><a href="#" class="tarjeta-sep">Leer más</a></p>
+        </div>
+        </div>
+        </div>
+        <div class="tarjeta">
+        <div class="integrantes">
+                <img src="./imagenes/artistas/samdavies.jpg" alt="">      
+                 <div>
+                 Sam Davies
+                </div>
+                <div>
+                <p><a href="#" class="tarjeta-sep">Leer más</a></p>
+        </div>
+        </div>
+        </div>
+        <div class="tarjeta">
+        <div class="integrantes">
+                <img src="./imagenes/artistas/aluu (1).jpg" alt="">      
+                <div>
+                 Alu
+                </div>
+                <div>
+                <p><a href="#" class="tarjeta-sep">Leer más</a></p>
+                </div>
+                </div>
+                </div>
+                <div class="tarjeta">
+                <div class="integrantes">
+                        <img src="./imagenes/artistas/anuck2 (1).jpg" alt="">      
+                        <div>
+                        Anouck
+                        </div>
+                        <div>
+                        <p><a href="#" class="tarjeta-sep">Leer más</a></p>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="tarjeta sepinterior">
+                                <div class="integrantes">
+                                        <img src="./imagenes/artistas/iseekarlo (1).jpg" alt="">      
+                                        <div>
+                                        Iseekarlo
+                                        </div>
+                                        <div>
+                                        <p><a href="#" class="tarjeta-sep">Leer más</a></p>
+                                        </div>
+                                        </div>
+                                        </div>
+                        <div class="tarjeta sepinterior">
+                        <div class="integrantes">
+                        <img src="./imagenes/artistas/hary.jpg" alt="">      
+                        <div>
+                        Hary Safu
+                        </div>
+                        <div>
+                        <p><a href="#" class="tarjeta-sep">Leer más</a></p>
+                        </div>
+                        </div>
+                        </div>
+                <div class="tarjeta sepinterior">
+                <div class="integrantes">
+                <img src="./imagenes/artistas/jesse (1).jpg" alt="">      
+                <div>
+                Jesse James
+                </div>
+                <div>
+                <p><a href="#" class="tarjeta-sep">Leer más</a></p>
+                </div>
+                </div>
+                </div> 
+                <div class="tarjeta sepinterior">
+                <div class="integrantes">
+                <img src="./imagenes/artistas/ugo (1).jpg" alt="">      
+                <div>
+                Ugo Boulard
+                </div>
+                <div>
+                <p><a href="#" class="tarjeta-sep">Leer más</a></p>
+                </div>
+                </div>
+                </div>
+                <div class="tarjeta sepinterior">
+                <div class="integrantes">
+                <img src="./imagenes/artistas/chino (1).jpg" alt="">      
+                <div>
+                Chineseguy2021
+                </div>
+                <div>
+                <p><a href="#" class="tarjeta-sep">Leer más</a></p>
+                </div>
+                </div>
+                </div>
+                <div class="tarjeta sepinterior">
+                <div class="integrantes">
+                <img src="./imagenes/artistas/bikoko (1).jpg" alt="">      
+                <div>
+                Bikôkô
+                </div>
+                <div>
+                <p><a href="#" class="tarjeta-sep">Leer más</a></p>
+                </div>
+                </div>
+                </div>
+                <div class="tarjeta sepinterior">
+                <div class="integrantes">
+                <img src="./imagenes/artistas/bexnil (1).jpg" alt="">      
+                <div>
+                Bexnil
+                </div>
+                <div>
+                <p><a href="#" class="tarjeta-sep">Leer más</a></p>
+                </div>
+                </div>
+                </div>  
+                <div class="tarjeta sepinterior">
+                <div class="integrantes">
+                <img src="./imagenes/artistas/byleguard (1).jpg" alt="">      
+                <div>
+                ByLeguard
+                </div>
+                <div>
+                <p><a href="#" class="tarjeta-sep">Leer más</a></p>
+                </div>
+                </div>
+                </div>   
+                <div class="tarjeta sepinterior">
+                <div class="integrantes">
+                <img src="./imagenes/artistas/youngwold.jpg" alt="">      
+                <div>
+                YoungWolf
+                </div>
+                <div>
+                <p><a href="#" class="tarjeta-sep">Leer más</a></p>
+                </div>
+                </div>
+                </div>                          
         </section>
 
 <!--Aquí va la presentación de cutetapes--> <!--Separar por genero y breve presentación de los que colaboran-->
-        <section id="cutetapes">
-        Aqui va la cute tapes
+        <section id="galeria">
+        <div id="separacion">
+        
+        </div>
+        <div id="titgaleria" class="titartistas">
+        Galeria de fotos
+        </div>
+
+        <div class="wrapgaleria1">
+<div id="imggal1" class="imagengaleria">
+        <img src="./imagenes/galeria/cutemob1.jpg" alt="">
+</div>
+<div id="imggal2" class="imagengaleria">
+        <img src="./imagenes/galeria/galanouck.jpg" alt="">
+</div>
+        </div>
+<div class="wrapgaleria2">
+<div id="imggal2" class="imagengaleria">
+        <img src="./imagenes/galeria/rojuugaleria.jpg" alt="">
+</div>
+<div id="imggal1" class="imagengaleria">
+        <img src="./imagenes/galeria/leitigaleria.jpg" alt="">
+</div>
+</div>
+<div class="wrapgaleria1">
+<div id="imggal1" class="imagengaleria">
+        <img src="./imagenes/galeria/iseegaleria.jpg" alt="">
+        </div>
+<div id="imggal2" class="imagengaleria">
+        <img src="./imagenes/galeria/rojuugaleria.jpg" alt="">                
+        
+        </div>        
+        </div>
+<div class="wrapgaleria2">
+        <div id="imggal2" class="imagengaleria">
+        <img src="./imagenes/galeria/galeriasam.jpg" alt="">
+        </div>
+        <div id="imggal1" class="imagengaleria">
+        <img src="./imagenes/galeria/galeriagallery.jpg" alt="">
+        </div>
+        </div>
         </section>
 
-<!--Aquí va una breve presentación de cutemobbgaming-->
-        <section id="cutemobbgaming">
-        Aqui va cutemobbgaming
+        <div id="separacion">
+
+        </div>
+
+<!--Aquí va una breve presentación de las colaboraciones-->
+        <section id="collabs">
+        <div id="titgaleria" class="titartistas">
+                Algo mas sobre Cutemobb
+        </div>
+        <div class="wrapcollabs">
+        <div class="algomas">
+        Cutemobb<br><br>
+        C U Througth Epiphany MOBB <br>
+        <img src="./imagenes/contacto/logo.jpg" alt="">
+        </div>
+        <div class="algomas">
+                <p><a href="#hero-section" class="contacto">Cutemobb</a></p>
+                <p><a href="#intro" class="contacto">Introduccion a Cutemobb</a></p>
+                <p><a href="#artistas" class="contacto">Artistas</a></p>
+                <p><a href="#galeria" class="contacto">Galería de fotos</a></p>
+                <p><a href="#collabs" class="contacto">Algo más</a></p>
+        </div>
+        <div class="col5" id="columna3-50">
+                <p>Síguenos en Redes, Gustavo</p>
+                <a href="https://www.facebook.com/cutemobbb/" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/Cutemobbb" class="fa fa-twitter"></a>
+                <a href="https://cutemobb.com/" class="fa fa-google"></a>
+                <a href="https://www.youtube.com/@cutemobb4647" class="fa fa-youtube-play"></a>
+                <a href="https://www.instagram.com/cutemobbb/" class="fa fa-instagram"></a>
+                <div class="algomas">
+                Contacto
+                </div>
+        </div>
+        </div>
         </section>
 
 
-<!--Aqui van las redes sociales de la cutemobb-->
-        <footer id="footwrap">
-        Aquí van las redes sociales de la cutemobb
-        </footer>
-    </div>
-    
+
 </body>
 </html>
