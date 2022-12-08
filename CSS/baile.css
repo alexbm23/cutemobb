@@ -1,11 +1,12 @@
 /*****************************************************************/
 /* Web del colectivo artistico cutemobb***************************/
-/* Hoja de estilo para cutetapes.html*****************************/
+/* Hoja de estilo para baile.html*****************************/
 /* Autor Alejandro Barnestein Martos******************************/
 /* Versión 1.0****************************************************/
 /* 08/12/22*******************************************************/
 
 /* ESTILO GENERAL*************************************************/
+
 
 @font-face {
     font-family:titulos ;
@@ -171,4 +172,24 @@ body{
     .cierre{
         font-size: 1rem;
     }
+
+    #intro-texto{
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (width<=450px)
+{
+
+     #video{
+        width: 300px;
+        height:180px ;
+     }
+     .intro-img img{
+        width: 25vh;
+     }
+     .intro-img2 img{
+        width: 25vh;
+     }
+
 }
